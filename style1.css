@@ -1,0 +1,59 @@
+/*External CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FEFAF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Class Selectors*/
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    border:4px solid #C5A992;
+}
+.left {
+    position: initial;
+    background-color: #DAC0A3;
+    padding: 25px;
+    border-right: 2px solid #C5A992;
+}
+.right {
+    position: initial;
+    background-color: #EADBC8;
+    padding: 25px;
+ 
+}
+
+.right ul{
+    margin-bottom: 20px;
+}
+.right li{
+    margin-bottom: 10px;
+}
+
+.left li{
+    margin-bottom: 3px;
+}
+
+/*ID Selector*/
+#mobile{
+    font-style:italic;
+}
+
+/*Element Selectors*/
+h4 {
+    margin-bottom: 15px;
+}
+
